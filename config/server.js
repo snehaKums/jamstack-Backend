@@ -8,5 +8,5 @@
 //   },
 // });
 module.exports = ({ env }) => ({
-  url: env('https://nameless-ocean-75411.herokuapp.com/ '),
+  url: env('https://boiling-brook-31844.herokuapp.com/'),
 });
