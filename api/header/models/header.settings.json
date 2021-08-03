@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "headers",
+  "info": {
+    "name": "header",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "products": {
+      "collection": "products",
+      "via": "header"
+    }
+  }
+}

@@ -40,6 +40,10 @@
       "via": "products",
       "collection": "category",
       "dominant": true
+    },
+    "header": {
+      "via": "products",
+      "model": "header"
     }
   }
 }
