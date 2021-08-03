@@ -8,3 +8,13 @@ module.exports = ({ env }) => ({
     },
   },
 });
+// module.exports = ({ env }) => ({
+//   host: env('HOST', '0.0.0.0'),
+//   port: env.int('PORT', 1337),
+//   admin: {
+//     auth: {
+//       secret: env('ADMIN_JWT_SECRET', '6c4965035b83330766bff14190012528'),
+//     },
+//   },
+// });
+
