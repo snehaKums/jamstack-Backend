@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_select_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "footerText": {
+      "type": "string"
+    }
+  }
+}

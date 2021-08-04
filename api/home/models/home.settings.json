@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "select.carousel"
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "select.categories"
+    }
+  }
+}

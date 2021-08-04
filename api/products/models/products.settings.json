@@ -35,15 +35,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "categories": {
-      "via": "products",
-      "collection": "category",
-      "dominant": true
-    },
-    "header": {
-      "via": "products",
-      "model": "header"
     }
   }
 }

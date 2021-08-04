@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "mains",
+  "info": {
+    "name": "main",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "select.header"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "select.footer"
+    }
+  }
+}

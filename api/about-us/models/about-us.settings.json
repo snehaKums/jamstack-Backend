@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "headers",
+  "collectionName": "aboutuses",
   "info": {
-    "name": "header",
-    "description": ""
+    "name": "AboutUs"
   },
   "options": {
     "increments": true,
@@ -12,12 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "aboutTitle": {
       "type": "string"
     },
-    "products": {
-      "collection": "products",
-      "via": "header"
+    "aboutDetail": {
+      "type": "text"
     }
   }
 }
