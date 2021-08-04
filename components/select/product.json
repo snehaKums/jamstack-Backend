@@ -1,16 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "components_select_products",
   "info": {
-    "name": "products",
-    "description": ""
+    "name": "Product",
+    "icon": "address-book"
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
+  "options": {},
   "attributes": {
     "title": {
       "type": "string"
