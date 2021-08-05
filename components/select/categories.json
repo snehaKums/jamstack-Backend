@@ -24,6 +24,9 @@
     },
     "products": {
       "collection": "products"
+    },
+    "detail": {
+      "type": "text"
     }
   }
 }
