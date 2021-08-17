@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "homes",
+  "collectionName": "pages",
   "info": {
-    "name": "Home",
+    "name": "page",
     "description": ""
   },
   "options": {
@@ -12,24 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "carousel": {
-      "type": "component",
-      "repeatable": false,
-      "component": "select.carousel"
-    },
-    "categories": {
-      "type": "component",
-      "repeatable": true,
-      "component": "select.categories"
-    },
     "title": {
       "type": "string"
     },
-    "contentSection": {
+    "products": {
+      "collection": "products"
+    },
+    "components": {
       "type": "dynamiczone",
       "components": [
         "select.carousel",
         "select.categories",
+        "select.footer",
+        "select.header",
         "select.rich-text"
       ]
     }

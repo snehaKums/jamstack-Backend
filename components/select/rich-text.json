@@ -1,22 +1,23 @@
 {
-  "collectionName": "components_select_products",
+  "collectionName": "components_select_rich_texts",
   "info": {
-    "name": "Product",
-    "icon": "address-book"
+    "name": "richText",
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "heading": {
       "type": "string"
     },
-    "price": {
-      "type": "decimal"
+    "subHeading": {
+      "type": "string"
     },
     "description": {
       "type": "text"
     },
     "image": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -26,9 +27,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "category": {
-      "type": "string"
     }
   }
 }
