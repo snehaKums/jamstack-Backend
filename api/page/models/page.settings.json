@@ -18,6 +18,9 @@
     "products": {
       "collection": "products"
     },
+    "slug": {
+      "type": "string"
+    },
     "components": {
       "type": "dynamiczone",
       "components": [
