@@ -27,7 +27,6 @@
         "select.carousel",
         "select.categories",
         "select.footer",
-        "select.header",
         "select.rich-text"
       ]
     }
